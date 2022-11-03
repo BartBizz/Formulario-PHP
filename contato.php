@@ -5,7 +5,7 @@
         <title>Dúvidas</title>
         <style>
             .cor{
-                background-color = black;
+                background-color: black;
             }
         </style>
     </head>
