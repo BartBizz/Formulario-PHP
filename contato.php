@@ -5,21 +5,31 @@
         <title>Dúvidas</title>
         <style>
             .cor{
-                background-color: black;
+                background-color: blueviolet;
+            }
+            .color{
+                color: blueviolet;
+            }
+            .btn{
+                color:white;
+                background-color: violet;
+                border-color: violet;
             }
         </style>
     </head>
-    <body>
+    <body bgcolor="f4978e">
         <center>
-        <h1>Dúvidas</h1>
+            
+        <h1 class="color">Dúvidas</h1>
+        
         <form action="enviar_email.php" method="post">
-            <label for="nome">Digite seu nome</label>
+            <label class="color" for="nome">Digite seu nome</label>
             <input type="text" required name="nome"/><br><br>
-            <label for="email">Digite seu e-mail</label>
+            <label class="color" for="email">Digite seu e-mail</label>
             <input type="email" required name="email"/><br><br>
-            <label for="mensagem">Digite sua mensagem</label>
+            <label class="color" for="mensagem">Digite sua mensagem</label>
             <textarea name="mensagem"></textarea><br><br>
-            <button type="submit">Enviar</button>
+            <button class="btn"type="submit">Enviar</button>
         </center>
         </form>
     </body>
