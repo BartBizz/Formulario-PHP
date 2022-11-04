@@ -24,7 +24,7 @@ try {
     $mail->Port = 587;
 
     $mail->setFrom($email, $nome);
-    $mail->addAddress('gabrielbart150@gmail.com','Gabriel');
+    $mail->addAddress('gabriel.bizzotto@etec.sp.gov.br','Gabriel Bizzotto');
 
     $mail->isHTML(true);
     $mail->Subject = 'formulário de contato - ' . $email;
